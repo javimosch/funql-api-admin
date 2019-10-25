@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <button @click="test">TEST</button>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
-
+import { funql } from "./utils";
 export default {
   name: "App",
   components: {
     HelloWorld
+  },
+  methods: {
+    async test() {
+      console.log(await funql());
+    }
   }
 };
 </script>
@@ -21,8 +25,5 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
