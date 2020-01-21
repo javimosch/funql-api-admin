@@ -4,7 +4,8 @@
             option(v-for="option in options" :value="option" v-html="option") 
 </template>
 <script>
-import { funql } from "../utils";
+/* eslint-disable */
+import { funql } from "funql-api/client";
 export default {
   props: ["value"],
   name: "MethodSelect",

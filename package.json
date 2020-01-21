@@ -10,6 +10,7 @@
     "dependencies": {
         "bulma": "^0.8.0",
         "debug": "^4.1.1",
+        "funql-api": "^1.2.3",
         "js-beautify": "^1.10.2",
         "node-sass": "^4.13.0",
         "pug": "^2.0.4",
