@@ -13,7 +13,7 @@
         "funql-api": "^1.2.3",
         "js-beautify": "^1.10.2",
         "node-sass": "^4.13.0",
-        "pug": "^2.0.4",
+        "pug": "^3.0.1",
         "pug-plain-loader": "^1.0.0",
         "sass-loader": "^8.0.0",
         "vue": "^2.5.22",
